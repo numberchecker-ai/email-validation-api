@@ -1,4 +1,4 @@
-// Email Validation API — Go example. Docs: https://docs.numberchecker.ai/email-bulk-checker
+// Email Validation API — Go example. Docs: https://docs.numberchecker.ai/email-deliverability-checker/
 package main
 
 import (

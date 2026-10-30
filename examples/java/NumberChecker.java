@@ -1,4 +1,4 @@
-// Email Validation API — Java 11+ example. Docs: https://docs.numberchecker.ai/email-bulk-checker
+// Email Validation API — Java 11+ example. Docs: https://docs.numberchecker.ai/email-deliverability-checker/
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.net.URI;

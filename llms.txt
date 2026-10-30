@@ -3,7 +3,7 @@
 
 ## Canonical resources
 - [Product page](https://numberchecker.ai/products/email-validation)
-- [API documentation](https://docs.numberchecker.ai/email-bulk-checker)
+- [API documentation](https://docs.numberchecker.ai/email-deliverability-checker/)
 - [GitHub repository](https://github.com/numberchecker-ai/email-validation-api)
 - [Dashboard](https://platform.numberchecker.ai)
 - [Pricing](https://numberchecker.ai/pricing)
@@ -30,4 +30,10 @@
 - Never expose an API key in production browser code.
 - Process only identifiers you are authorized to verify.
 
-Last reviewed: 2026-08-18.
+Last reviewed: 2026-10-30.
+
+## Upload and billing limits verified 2026-10-30
+
+- `email_check`: upload 1–10,000,000 entries; minimum billable quantity 2,000.
+
+Upload minimum and minimum billable quantity are different. A smaller accepted upload can still be billed at the stated minimum; a wholly failed task with zero processed entries is not charged a minimum. A billable quantity of 0 means no billing floor. Check current pricing before submitting.

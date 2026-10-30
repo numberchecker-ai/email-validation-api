@@ -1,4 +1,4 @@
-// Email Validation API — Node.js 18+ example. Docs: https://docs.numberchecker.ai/email-bulk-checker
+// Email Validation API — Node.js 18+ example. Docs: https://docs.numberchecker.ai/email-deliverability-checker/
 import fs from "node:fs";
 import { setTimeout as sleep } from "node:timers/promises";
 

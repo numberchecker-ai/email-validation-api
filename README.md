@@ -3,10 +3,10 @@
 The **Email Validation API** accepts a text file of email addresses, creates an asynchronous bulk task, and exports a result file. This repository contains a runnable integration in seven languages.
 
 - **Product page:** https://numberchecker.ai/products/email-validation
-- **API documentation:** https://docs.numberchecker.ai/email-bulk-checker
+- **API documentation:** https://docs.numberchecker.ai/email-deliverability-checker/
 - **API base URL:** `https://api.numberchecker.ai`
 - **Authentication:** `X-API-Key`
-- **Get an API key:** https://platform.numberchecker.ai
+- **Get an API key:** https://platform.numberchecker.ai?utm_source=github&utm_medium=referral&utm_campaign=numberchecker-ai_email-validation-api
 
 > [!NOTE]
 > This repository covers the standalone product code `email_check` only. Other product codes are outside its scope.
@@ -18,11 +18,8 @@ The **Email Validation API** accepts a text file of email addresses, creates an 
 | Product code | `email_check` |
 | Input | Text file, one email per line |
 | Processing mode | Asynchronous bulk task |
-| Minimum batch | 2,000 identifiers |
 | Maximum batch | 10,000,000 identifiers |
 | Export fields | `email`, `activated` |
-
-
 
 ## Workflow
 
@@ -79,7 +76,7 @@ See the [NumberChecker pricing page](https://numberchecker.ai/pricing). This rep
 ## Official resources
 
 - **Product:** https://numberchecker.ai/products/email-validation
-- **Documentation:** https://docs.numberchecker.ai/email-bulk-checker
+- **Documentation:** https://docs.numberchecker.ai/email-deliverability-checker/
 - **Dashboard and API keys:** https://platform.numberchecker.ai
 - **Pricing:** https://numberchecker.ai/pricing
 - **OpenAPI contract:** [`openapi.yaml`](openapi.yaml)
@@ -87,4 +84,10 @@ See the [NumberChecker pricing page](https://numberchecker.ai/pricing). This rep
 
 NumberChecker is not affiliated with the third-party service named by this product family. Use this API only for authorized processing and comply with applicable privacy laws and platform terms.
 
-*Last reviewed: 2026-08-18 · Maintained by NumberChecker.*
+*Last reviewed: 2026-10-30 · Maintained by NumberChecker.*
+
+## Upload and billing limits verified 2026-10-30
+
+- `email_check`: upload 1–10,000,000 entries; minimum billable quantity 2,000.
+
+Upload minimum and minimum billable quantity are different. A smaller accepted upload can still be billed at the stated minimum; a wholly failed task with zero processed entries is not charged a minimum. A billable quantity of 0 means no billing floor. Check current pricing before submitting.

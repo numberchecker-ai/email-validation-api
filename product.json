@@ -5,7 +5,7 @@
   "description": "Asynchronous bulk email validation API for NumberChecker.",
   "official_site": "https://numberchecker.ai",
   "landing_page": "https://numberchecker.ai/products/email-validation",
-  "canonical_docs": "https://docs.numberchecker.ai/email-bulk-checker",
+  "canonical_docs": "https://docs.numberchecker.ai/email-deliverability-checker/",
   "base_url": "https://api.numberchecker.ai",
   "auth": {
     "type": "api_key",
@@ -35,16 +35,18 @@
     {
       "type": "email_check",
       "name": "Upload Task",
-      "min": 2000,
+      "min": 1,
       "max": 10000000,
       "fields": [
         "email",
         "activated"
-      ]
+      ],
+      "min_billable_numbers": 2000,
+      "available": true
     }
   ],
   "pricing_url": "https://numberchecker.ai/pricing",
   "maintainer": "NumberChecker",
   "license": "MIT",
-  "last_reviewed": "2026-08-18"
+  "last_reviewed": "2026-10-30"
 }

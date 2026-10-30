@@ -1,4 +1,4 @@
-// Email Validation API — .NET 6+ example. Docs: https://docs.numberchecker.ai/email-bulk-checker
+// Email Validation API — .NET 6+ example. Docs: https://docs.numberchecker.ai/email-deliverability-checker/
 using System;
 using System.IO;
 using System.Net.Http;

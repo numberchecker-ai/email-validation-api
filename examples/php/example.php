@@ -1,5 +1,5 @@
 <?php
-// Email Validation API — PHP + cURL example. Docs: https://docs.numberchecker.ai/email-bulk-checker
+// Email Validation API — PHP + cURL example. Docs: https://docs.numberchecker.ai/email-deliverability-checker/
 
 const BASE_URL = "https://api.numberchecker.ai";
 const TASK_TYPE = "email_check";

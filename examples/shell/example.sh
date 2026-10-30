@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Email Validation API — curl + jq example. Docs: https://docs.numberchecker.ai/email-bulk-checker
+# Email Validation API — curl + jq example. Docs: https://docs.numberchecker.ai/email-deliverability-checker/
 set -euo pipefail
 
 BASE_URL="https://api.numberchecker.ai"
